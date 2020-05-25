@@ -1,38 +1,91 @@
-.App {
+.full-height {
+  height: 100vh;
+}
+.side-bar {
+  background: #000;
+  background-image: url('/SideBar.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 150px;
+  position: fixed;
+}
+.side-bar-left {
+  left: 0;
+  top: 0;
+}
+.side-bar-right {
+  right: 0;
+  top: 0;
+}
+@media (min-width: 992px) {
+  .container-content {
+    margin: 0px 150px;
+  }
+}
+.home-container {
+  background: #000;
+  background-image: url('/Homepage.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  height: 100vh;
+}
+.home-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 150px;
+}
+.container-row {
+  width: 100%;
+}
+html .nav-link {
+  text-transform: capitalize;
+  color: #777;
+  
+}
+html .nav-link.active {
+  color: red;
+}
+.artist-list {
+  list-style-type: none;
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.artist-list li {
+  cursor: pointer;
+  vertical-align: bottom;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.artist-list li img {
+  max-height: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.open-artist .artist-name {
+  font-size: 2em;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.art-work {
+  background-color: #000;
+  text-align: center;
+  position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.art-work:hover::before {
+  content: "";
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+}
+.art-work:hover::after {
+  content: attr(data-artist);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  color: #fff;
+  font-size: 2em;
 }

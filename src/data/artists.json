@@ -1,0 +1,44 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "name": "Christina Logan",
+            "link": "http://google.co.uk",
+            "facebook": "http://google.co.uk",
+            "instagram": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Lois Samuel",
+            "link": "http://google.co.uk",
+            "facebook": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Lois Samuel",
+            "link": "http://google.co.uk",
+            "instagram": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Lois Samuel",
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Lois Samuel",
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Lois Samuel",
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        }
+    ]
+}
