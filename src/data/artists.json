@@ -3,16 +3,15 @@
         {
             "id": 1,
             "name": "Christina Logan",
-            "link": "http://google.co.uk",
-            "facebook": "http://google.co.uk",
-            "instagram": "http://google.co.uk",
-            "image": "lois.jpg"
+        "link":,
+            "instagram": "https://www.instagram.com/c_lgnn/?hl=en",
+            "image":
         },
         {
             "id": 2,
             "name": "Lois Samuel",
-            "link": "http://google.co.uk",
-            "facebook": "http://google.co.uk",
+            "link":,
+            "instagram": "https://www.instagram.com/lsamuel.art/?hl=en",
             "image": "lois.jpg"
         },
         {
