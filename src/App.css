@@ -1,19 +1,12 @@
 @font-face {
-  font-family: 'VenturisADFMath-Regular';
-  src:url('/VenturisADFMath-Regular.ttf.woff') format('woff'),
-      url('/VenturisADFMath-Regular.ttf.svg#VenturisADFMath-Regular') format('svg'),
-      url('/VenturisADFMath-Regular.ttf.eot'),
-      url('/VenturisADFMath-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'LiberationSerif-Regular';
+  src:url('/LiberationSerif-Regular.ttf'); 
+  font-weight: 400;
 }
-
 html body {
-  font-family: 'VenturisADFMath-Regular';
-  font-weight: 700;
-  font-size: 2em
+  font-family: 'LiberationSerif-Regular';
+  font-size: 1.75em;
 }
-
 .full-height {
   height: 100vh;
 }
@@ -79,7 +72,6 @@ html .nav-link.active {
 .open-artist .artist-name {
   font-size: 2.2em;
   font-weight: bold;
-  margin-top: 80px;
 }
 .art-work {
   background-color: #000;
@@ -105,7 +97,4 @@ html .nav-link.active {
   top: 40%;
   color: #fff;
   font-size: 2em;
-}
-header.container-content {
-  margin-top: 50px;
 }

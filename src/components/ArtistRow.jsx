@@ -25,9 +25,9 @@ const ArtistRow = ({artist}) => {
                 }}
                 className={`${isOpen ? "border open-artist" : ""}`}
             >
-                <div className="artist-name">
+                <span className="artist-name">
                     {artist.name}
-                </div>
+                </span>
 
                 {
                     isOpen
