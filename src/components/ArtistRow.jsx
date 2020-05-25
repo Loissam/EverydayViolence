@@ -25,19 +25,9 @@ const ArtistRow = ({artist}) => {
                 }}
                 className={`${isOpen ? "border open-artist" : ""}`}
             >
-                {
-                    isOpen
-                    ?
-                        <img
-                            alt={artist.name}
-                            src={`/artists/${artist.image}`}
-                        />
-                    :
-                        <></>
-                }
-                <span className="artist-name">
+                <div className="artist-name">
                     {artist.name}
-                </span>
+                </div>
 
                 {
                     isOpen
