@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './Layout'
 
-import Home from './pages/Home'
+// import Home from './pages/Home'
 import Artists from './pages/Artists'
 import Artworks from './pages/Artworks'
 import Extras from './pages/Extras'
@@ -33,7 +33,7 @@ const Switcher = () => {
                     </Route>
                     <Route exact path="/">
                         <Layout header={false}>
-                            <Home />
+                            <Artworks />
                         </Layout>
                     </Route>
             </Switch>
