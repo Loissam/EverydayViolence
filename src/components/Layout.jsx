@@ -3,12 +3,12 @@ import React from 'react'
 import { Container } from 'reactstrap'
 
 import SideBar from './SideBar'
-import Navigation from './Navigation'
+// import Navigation from './Navigation'
 
 const Layout = ({header, children}) => {
     return (
         <>
-            { 
+            {/* { 
                 header !== false
                 ?
                     <header className="container-content">
@@ -16,7 +16,7 @@ const Layout = ({header, children}) => {
                     </header>
                 :
                     <></>
-            }
+            } */}
             <Container fluid={true} className="full-height p-0 m-0">
                 <div className="container-row">
                     <SideBar className="side-bar-left" />
