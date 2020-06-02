@@ -56,6 +56,16 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                                 {artist.name}
                             </span>
                             <div>
+                                <button 
+                                    className="btn btn-link artwork-link" 
+                                    onClick={evt => {
+                                        evt.preventDefault();
+                                        setVideo(artwork);
+                                        setHover(false);
+                                    }}
+                                >
+                                    <FontAwesomeIcon size="lg" icon={faVimeoSquare} />
+                                </button>
                                 {
                                     artist.instagram
                                     ?
@@ -83,16 +93,6 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                                     :
                                         <></>
                                 }
-                                <button 
-                                    className="btn btn-link artwork-link" 
-                                    onClick={evt => {
-                                        evt.preventDefault();
-                                        setVideo(artwork);
-                                        setHover(false);
-                                    }}
-                                >
-                                    <FontAwesomeIcon size="lg" icon={faVimeoSquare} />
-                                </button>
                             </div>
                         </div>
                     :
