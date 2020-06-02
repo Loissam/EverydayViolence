@@ -94,6 +94,9 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                                         <></>
                                 }
                             </div>
+                            <div className="artist-statement">
+                                {artist.statement}
+                            </div>
                         </div>
                     :
                         <></>
