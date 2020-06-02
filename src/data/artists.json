@@ -2,40 +2,99 @@
     "artists": [
         {
             "id": 1,
-            "name": "Christina Logan",
+            
     
             "instagram": "https://www.instagram.com/c_lgnn/?hl=en"
             
         },
         {
             "id": 2,
-            "name": "Lois Samuel",
+            
            
             "instagram": "https://www.instagram.com/lsamuel.art/?hl=en",
             "image": "lois.jpg"
         },
         {
             "id": 3,
-            "name": "Lois Samuel",
+            
             "link": "http://google.co.uk",
             "instagram": "http://google.co.uk",
             "image": "lois.jpg"
         },
         {
             "id": 4,
-            "name": "Lois Samuel",
+           
             "link": "http://google.co.uk",
             "image": "lois.jpg"
         },
         {
             "id": 5,
-            "name": "Lois Samuel",
+            
             "link": "http://google.co.uk",
             "image": "lois.jpg"
         },
         {
             "id": 6,
-            "name": "Lois Samuel",
+           
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 7,
+            
+    
+            "instagram": "https://www.instagram.com/c_lgnn/?hl=en"
+            
+        },
+        {
+            "id": 8,
+           
+    
+            "instagram": "https://www.instagram.com/c_lgnn/?hl=en"
+            
+        },
+        {
+            "id": 9,
+           
+    
+            "instagram": "https://www.instagram.com/c_lgnn/?hl=en"
+            
+        },
+        {
+            "id": 10,
+            
+    
+            "instagram": "https://www.instagram.com/c_lgnn/?hl=en"
+            
+        },
+        {
+            "id": 11,
+          
+    
+            "instagram": "https://www.instagram.com/c_lgnn/?hl=en"
+            
+        },
+        {
+            "id": 12,
+           
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 13,
+           
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 14,
+           
+            "link": "http://google.co.uk",
+            "image": "lois.jpg"
+        },
+        {
+            "id": 15,
+           
             "link": "http://google.co.uk",
             "image": "lois.jpg"
         }

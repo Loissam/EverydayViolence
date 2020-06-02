@@ -1,64 +1,98 @@
 {
     "artworks": [
+    
         {
-            "title": "Jelly fish",
-            "by": 1,
-            "vimeo": "12520819",
-            "image": "jelly-fish.jpg"
-        },
-        {
-            "title": "Jelly fish",
+            "title": "Andrew Bowen",
             "by": 2,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "lorem fdjsafkldsjf skfjklsda;jf kasdl;fjak sfjdklsf jkasdlf jaskfa ls",
+            "title": "Hannah Thomas",
             "by": 3,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Pixie Fear",
             "by": 4,
             "vimeo": "12520819",
-            "image": "jelly-fish.jpg"
+            "image": "Pixie.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Elisha Hughes",
             "by": 1,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Connor Tudor",
             "by": 1,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Kate Evans",
             "by": 1,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Bethryn Cooper",
             "by": 1,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Lois Samuel",
+            "by": 1,
+            "vimeo": "12520819",
+            "image": "blob.jpg"
+        },
+        {
+            "title": "Gaynor Vine",
             "by": 1,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         },
         {
-            "title": "Jelly fish",
+            "title": "Alana Jones",
+            "by": 1,
+            "vimeo": "12520819",
+            "image": "jelly-fish.jpg"
+        },
+        { "title": "Laura Dunlop",
+            "by": 1,
+            "vimeo": "12520819",
+            "image": "jelly-fish.jpg"
+
+
+        },
+        { 
+            "title": "Jess Parry",
+            "by": 1,
+            "vimeo": "12520819",
+            "image": "JESS.jpg"
+        },
+        { "title": "Christina Logan",
+            "by": 1,
+            "vimeo": "12520819",
+            "image": "jelly-fish.jpg"
+        },
+        {
+            "title": "Laura Cashin",
+            "by": 1,
+            "vimeo": "12520819",
+            "image": "jelly-fish.jpg"
+        },
+        {
+            "title": "Abigail Fraser",
             "by": 1,
             "vimeo": "12520819",
             "image": "jelly-fish.jpg"
         }
+
     ]
 }
+        
+    
