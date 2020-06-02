@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Col } from 'reactstrap'
 
 import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons'
-import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faVimeoSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ArtWork = ({artwork, artist, setVideo}) => {
@@ -27,20 +27,18 @@ const ArtWork = ({artwork, artist, setVideo}) => {
             md="6"
             lg="4" 
             className="border art-work"
-            style={{
-                verticalAlign: "middle"
-            }}
-            onClick={(evt) => {
-                var anchor = evt.target.closest("a");
-                if (!anchor) {
-                    setVideo(artwork);
-                }
-            }}
             onMouseEnter={() => {
                 setHover(true);
             }}
             onMouseLeave={() => {
                 setHover(false);
+            }}
+            onTouchEnd={(evt) => {
+                const control = evt.target.closest('a, button');
+                if (!control) {
+                    evt.preventDefault();
+                    setHover(!isHover);
+                }
             }}
         >
             <div className="artwork">
@@ -58,6 +56,16 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                                 {artist.name}
                             </span>
                             <div>
+                                <button 
+                                    className="btn btn-link artwork-link" 
+                                    onClick={evt => {
+                                        evt.preventDefault();
+                                        setVideo(artwork);
+                                        setHover(false);
+                                    }}
+                                >
+                                    <FontAwesomeIcon size="lg" icon={faVimeoSquare} />
+                                </button>
                                 {
                                     artist.instagram
                                     ?

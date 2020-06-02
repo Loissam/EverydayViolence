@@ -77,6 +77,7 @@ html .nav-link.active {
   background-color: #000;
   text-align: center;
   position: relative;
+  vertical-align: middle;
 }
 /* .art-work:hover::before {
   content: "";
@@ -91,6 +92,10 @@ html .nav-link.active {
 } */
 .artwork {
   position: relative;
+}
+html .btn.artwork-link {
+  color: #007bff;
+  font-size: 1.5em;
 }
 .artist-overlay {
   background-color: rgba(0, 0, 0, 0.9);
