@@ -90,7 +90,8 @@ html .nav-link.active {
   height: 100%;
   width: 100%;
 } */
-.artwork {
+.artwork img {
+  width: 100%;
   position: relative;
 }
 html .btn.artwork-link {
@@ -102,6 +103,8 @@ html .btn.artwork-link {
   cursor: pointer;
   position: absolute;
   top: 0;
+  padding: 0;
+  margin: 0;
   left: 0;
   height: 100%;
   width: 100%;
@@ -110,14 +113,12 @@ html .btn.artwork-link {
 }
 html .full-screen-modal {
   max-width: unset;
-  width: 80vw;
-  min-width: 20%;
-  margin: 0 auto;
+  width: 100vw;
+  margin: 0;
 }
 html .full-screen-modal .modal-content {
   min-width: 40vw;
 }
-.artist-statement
-{
-  font-size: 14px
+.artist-statement {
+  font-size: 13px
 }

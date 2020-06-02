@@ -2,12 +2,11 @@ import React, { useState } from 'react'
 
 import { Col } from 'reactstrap'
 
-import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons'
-import { faFacebookF, faInstagram, faVimeoSquare } from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faInstagram, faVimeoSquare, faAmilia } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ArtWork = ({artwork, artist, setVideo}) => {
-
     let artDisplay = null;
     if (artwork.image) {
         let url = "";
@@ -67,6 +66,15 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                                     <FontAwesomeIcon size="lg" icon={faVimeoSquare} />
                                 </button>
                                 {
+                                    artist.accessWeb
+                                    ?
+                                        <a href={artist.accessWeb} className="pr-2">
+                                            <FontAwesomeIcon size="lg" icon={faAmilia} />
+                                        </a>
+                                    :
+                                        <></>
+                                }
+                                {
                                     artist.instagram
                                     ?
                                         <a href={artist.instagram} className="pr-2">
@@ -88,7 +96,7 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                                     artist.link
                                     ?
                                         <a href={artist.link} className="pr-2">
-                                            <FontAwesomeIcon size="lg" icon={faExternalLinkSquareAlt} />
+                                            <FontAwesomeIcon size="lg" icon={faGlobe} />
                                         </a>
                                     :
                                         <></>
