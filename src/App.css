@@ -120,5 +120,6 @@ html .full-screen-modal .modal-content {
   min-width: 40vw;
 }
 .artist-statement {
-  font-size: 13px
+  font-size: 13px;
+  padding: 0.125em;
 }
