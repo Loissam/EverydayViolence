@@ -95,8 +95,11 @@ html .nav-link.active {
   position: relative;
 }
 html .btn.artwork-link {
-  color: #007bff;
+  color: red;
   font-size: 1.5em;
+}
+.artist-overlay a {
+  color: red;
 }
 .artist-overlay {
   background-color: rgba(0, 0, 0, 0.9);
