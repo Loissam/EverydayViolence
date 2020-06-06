@@ -112,7 +112,7 @@ html .btn.artwork-link {
   height: 100%;
   width: 100%;
   color: #fff;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 html .full-screen-modal {
   max-width: unset;
@@ -126,4 +126,29 @@ html .full-screen-modal .modal-content {
   font-size: 20px;
   padding: 0.125em;
  font-weight: 700;
+}
+html .manifesto {
+  background-color: black;
+  color: yellow;
+}
+html .artwork-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 600px) {
+  html .art-work {
+    height: 50vh;
+    scroll-snap-align: start;
+  }
+  /* .artist-overlay {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 0;
+    z-index: 100;
+  } */
 }

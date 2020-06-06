@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ArtWork = ({artwork, artist, setVideo}) => {
     let artDisplay = null;
+    let url = "";
     if (artwork.image) {
-        let url = "";
         if (artwork.image.match(/^http/) !== null) {
             url = artwork.image;
         } else {
