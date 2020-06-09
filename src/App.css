@@ -6,6 +6,7 @@
 html body {
   font-family: 'LiberationSerif-Regular';
   font-size: 1.75em;
+  background-color: #000;
 }
 .full-height {
   height: 100vh;
@@ -34,11 +35,10 @@ html body {
 }
 .home-container {
   background: #000;
-  background-image: url('/Homepage.jpg');
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
-  height: 100vh;
+  color: yellow;
+  font-family: 'LiberationSerif-Regular';
+  font-size: 1em;
+  background-color: #000;
 }
 .home-nav {
   position: absolute;
@@ -76,8 +76,8 @@ html .nav-link.active {
 .art-work {
   background-color: #000;
   text-align: center;
-  position: relative;
-  vertical-align: middle;
+  position: center;
+  vertical-align: center;
 }
 /* .art-work:hover::before {
   content: "";
@@ -112,7 +112,7 @@ html .btn.artwork-link {
   height: 100%;
   width: 100%;
   color: #fff;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 html .full-screen-modal {
   max-width: unset;
@@ -123,8 +123,9 @@ html .full-screen-modal .modal-content {
   min-width: 40vw;
 }
 .artist-statement {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
-  padding: 0.125em;
+  padding: 1em;
  font-weight: 700;
 }
 html .manifesto {

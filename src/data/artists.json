@@ -4,14 +4,16 @@
             "id": 1,
             
     
-            "instagram": "https://www.instagram.com/killercymru/?hl=en"
+            "instagram": "https://www.instagram.com/killercymru/?hl=en",
+            "statement": "www.shopessentials.co.uk"
             
         },
         {
             "id": 2,
             
            
-            "instagram": "https://www.instagram.com/hannahthomas.art/?hl=en"
+            "instagram": "https://www.instagram.com/hannahthomas.art/?hl=en",
+            "statement": "I am fascinated with my relationship with the human body and attempt to capture movement, emotion and expression. I think to refer back old sketches, notes and artwork is critical. I believe being self-referential is a natural conclusion of being so consumed by the detail of everything."
             
         },
         {
@@ -32,12 +34,15 @@
         {
             "id": 5,
             
-            "instagram": "https://www.instagram.com/wet_flannel/?hl=en"
+            "instagram": "https://www.instagram.com/wet_flannel/?hl=en",
+            "statement": "BOISTEROUS BRITAIN AND IT’S OLD FASHIONED WAYS, IT’S TIME FOR A CHANGE, FORGET ABOUT THE GOLDEN DAYS, CONDEMN WHAT YOU KNOW, QUESTION WHAT YOU SEE, DON’T BE SILENT, AND THEN WE SHALL ALL BE FREE"
+
         },
         {
             "id": 6,
            
-            "instagram": "https://www.instagram.com/kateevansfineart/?hl=en"
+            "instagram": "https://www.instagram.com/kateevansfineart/?hl=en",
+            "statement": "I dream big but I also ingest lot of poison."
             
         },
         {
@@ -91,7 +96,7 @@
             "id": 13,
            
             "instagram": "https://www.instagram.com/lsamuel.art/?hl=en",
-            "image": "lois.jpg"
+           "statement": "Logan’s work is melancholic, indignant and sometimes nostalgic. Avoiding confrontation to please the majority for too long, they now aim to provoke serious thought, and educate on societal issues. Some personal aspects of their life heavily inspires their practice."
         },
         {
             "id": 14,
@@ -102,7 +107,9 @@
         {
             "id": 15,
            
-            "instagram": "https://www.instagram.com/fraserxo/?hl=en"
+            "instagram": "https://www.instagram.com/fraserxo/?hl=en",
+            "statement": "Fraser’s animations and drawings of contemporary comforts were created as a response to the ongoing Coronavirus pandemic. Through making these durational animations solely available online, Fraser hopes to create an alternative space to memorialise and frame our shared experiences."
+           
             
         }
     ]
