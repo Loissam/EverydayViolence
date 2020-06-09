@@ -32,7 +32,7 @@ const ArtWork = ({artwork, artist, setVideo}) => {
             onMouseLeave={() => {
                 setHover(false);
             }}
-            onTouchEnd={(evt) => {
+            onTouchStart={(evt) => {
                 const control = evt.target.closest('a, button');
                 if (!control) {
                     evt.preventDefault();
@@ -50,60 +50,64 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                         <div 
                             className="artist-overlay"
                         >
-                            <h1>{artwork.title}</h1>
-                            <span className="artist-name">
-                                {artist.name}
-                            </span>
-                            <div>
-                                <button 
-                                    className="btn btn-link artwork-link" 
-                                    onClick={evt => {
-                                        evt.preventDefault();
-                                        setVideo(artwork);
-                                        setHover(false);
-                                    }}
-                                >
-                                    <FontAwesomeIcon size="lg" icon={faVimeoSquare} />
-                                </button>
-                                {
-                                    artist.accessWeb
-                                    ?
-                                        <a href={artist.accessWeb} className="pr-2">
-                                            <FontAwesomeIcon size="lg" icon={faAmilia} />
-                                        </a>
-                                    :
-                                        <></>
-                                }
-                                {
-                                    artist.instagram
-                                    ?
-                                        <a href={artist.instagram} className="pr-2">
-                                            <FontAwesomeIcon size="lg" icon={faInstagram} />
-                                        </a>
-                                    :
-                                        <></>
-                                }
-                                {
-                                    artist.facebook
-                                    ?
-                                        <a href={artist.facebook} className="pr-2">
-                                            <FontAwesomeIcon size="lg" icon={faFacebookF} />
-                                        </a>
-                                    :
-                                        <></>
-                                }
-                                {
-                                    artist.link
-                                    ?
-                                        <a href={artist.link} className="pr-2">
-                                            <FontAwesomeIcon size="lg" icon={faGlobe} />
-                                        </a>
-                                    :
-                                        <></>
-                                }
-                            </div>
-                            <div className="artist-statement">
-                                {artist.statement}
+                            <div className="artist-overlay-content">
+                                <h1>{artwork.title}</h1>
+                                <span className="artist-name">
+                                    {artist.name}
+                                </span>
+                                <div>
+                                    <button
+                                        className="btn btn-secondary artwork-link" 
+                                        onClick={evt => {
+                                            evt.preventDefault();
+                                            setVideo(artwork);
+                                            setHover(false);
+                                        }}
+                                    >
+                                        Enter the 360 experience
+                                    </button>
+                                    <div>
+                                        {
+                                            artist.accessWeb
+                                            ?
+                                                <a href={artist.accessWeb} className="pr-2">
+                                                    <FontAwesomeIcon size="lg" icon={faAmilia} />
+                                                </a>
+                                            :
+                                                <></>
+                                        }
+                                        {
+                                            artist.instagram
+                                            ?
+                                                <a href={artist.instagram} className="pr-2">
+                                                    <FontAwesomeIcon size="lg" icon={faInstagram} />
+                                                </a>
+                                            :
+                                                <></>
+                                        }
+                                        {
+                                            artist.facebook
+                                            ?
+                                                <a href={artist.facebook} className="pr-2">
+                                                    <FontAwesomeIcon size="lg" icon={faFacebookF} />
+                                                </a>
+                                            :
+                                                <></>
+                                        }
+                                        {
+                                            artist.link
+                                            ?
+                                                <a href={artist.link} className="pr-2">
+                                                    <FontAwesomeIcon size="lg" icon={faGlobe} />
+                                                </a>
+                                            :
+                                                <></>
+                                        }
+                                    </div>
+                                </div>
+                                <div className="artist-statement">
+                                    {artist.statement}
+                                </div>
                             </div>
                         </div>
                     :
