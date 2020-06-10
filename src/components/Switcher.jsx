@@ -2,9 +2,9 @@ import React from 'react'
 import Layout from './Layout'
 
 import Home from './pages/Home'
-import Artists from './pages/Artists'
+// eslint-disable-next-lineimport Artists from './pages/Artists'
 import Artworks from './pages/Artworks'
-import Extras from './pages/Extras'
+// eslint-disable-next-lineimport Extras from './pages/Extras'
 
 import {
     BrowserRouter as Router,

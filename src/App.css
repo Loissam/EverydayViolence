@@ -14,9 +14,9 @@ html body {
 }
 .side-bar {
   background: #000;
-  background-image: url('/rose.jpg');
+  background-image: url('/roset.png');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 90% auto;
   background-position: center;
   width: 150px;
   position: fixed;
@@ -60,7 +60,7 @@ html .nav-link.active {
 }
 .artist-list {
   list-style-type: none;
-  width: 100%;
+  width: 1%;
   text-align: center;
 }
 .artist-list li {
@@ -129,8 +129,8 @@ html .full-screen-modal .modal-content {
   min-width: 40vw;
 }
 .artist-statement {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px;
+  
+  font-size: 18px;
   padding: 1em;
  font-weight: 700;
 }
