@@ -13,33 +13,41 @@ html body {
   height: 100vh;
 }
 .side-bar {
-  background: #000;
-  background-image: url('/roset.png');
+  
   background-repeat: no-repeat;
-  background-size: 90% auto;
-  background-position: center;
+  background-size: 100% 100%;
+  background-position: middle;
   width: 150px;
-  position: fixed;
+   position: fixed;
 }
 .side-bar-left {
+  background-image: url('/SideBar.jpg');
   left: 0;
   top: 0;
 }
 .side-bar-right {
+  background-image: url('/SideBar2.png');
   right: 0;
   top: 0;
 }
-@media (min-width: 992px) {
-  .container-content {
-    margin: 0px 150px;
-  }
-}
 .home-container {
   background: #000;
+  background-image: url('/landingpage.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: right;
   color: yellow;
   font-family: 'LiberationSerif-Regular';
   font-size: 1em;
   background-color: #000;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+.home-container img {
+  width: auto;
+  height: 100%;
 }
 .home-nav {
   position: absolute;
@@ -138,30 +146,67 @@ html .manifesto {
   background-color: black;
   color: yellow;
 }
+html .statement {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+}
+html .statement.bottom-statement {
+  background-color: black;
+}
+.and-repose {
+  width: 100%;
+  text-align: right;
+}
+.and-repose img {
+  max-width: 100%;
+}
+.artwork-stuck .artist-overlay {
+  background-color: rgba(255, 255, 255, 0.0);
+  color: #fff;
+}
+html .btn.explain-button {
+  background-color: black;
+  color: red;
+  border: 1px solid white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16pt;
+  margin-bottom: 16px;
+  
+}
+.explain-text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+/* Large screen */
+@media (min-width: 992px) {
+  .container-content {
+    margin: 0px 150px;
+  }
+  .home-container .home-statement {
+    position: absolute;
+    bottom: 0px;
+    width: 66vw;
+    right: 0;
+  }
+}
+/* Mobile screen */
 @media only screen and (max-width: 600px) {
   .home-container, html .container-content {
     padding: 0;
     margin: 0;
   }
-  .home-container img {
-    width: 96vw;
+  .home-container .nav-text {
+    height: 100vh;
   }
   html .art-work {
-    height: 50vh;
+    padding: 0;
+    margin: 0;
     scroll-snap-align: start;
   }
   .manifesto img {
     width: 85vw;
   }
-  /* .artist-overlay {
-    position: fixed;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    padding-top: 0;
-    z-index: 100;
-  } */
 }

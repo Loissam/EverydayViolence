@@ -22,9 +22,7 @@ const Switcher = () => {
                         </Layout>
                     </Route>
                     <Route exact path="/">
-                        <Layout header={false}>
-                            <Home />
-                        </Layout>
+                        <Home />
                     </Route>
             </Switch>
         </Router>

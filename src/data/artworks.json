@@ -22,7 +22,7 @@
         {
             "title": "Elisha Hughes",
             "by": 4,
-            "vimeo": "12520819",
+            "vimeo": "427693316",
             "image": "elisha.jpg"
         },
         {
@@ -49,12 +49,7 @@
             "vimeo": "12520819",
             "image": "lois.jpg"
         },
-        {
-            "title": "Gaynor Vine",
-            "by": 9,
-            
-            "image": "gaynor.jpg"
-        },
+     
         {
             "title": "Alana Jones",
             "by": 10,
@@ -90,6 +85,12 @@
             "by": 15,
             "vimeo": "12520819",
             "image": "abi.jpg"
+        },   
+        {
+            "title": "With thanks to",
+            "by": 9,
+            "image": "thanks.jpg",
+            "forceHover": true
         }
 
     ]

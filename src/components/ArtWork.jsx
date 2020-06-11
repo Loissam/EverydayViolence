@@ -18,7 +18,7 @@ const ArtWork = ({artwork, artist, setVideo}) => {
         artDisplay = <img src={url} alt={artwork.title} />;
     }
 
-    const [ isHover, setHover ] = useState(false);
+    const [ isHover, setHover ] = useState(artwork.forceHover);
 
     return (
         <Col 
@@ -30,17 +30,21 @@ const ArtWork = ({artwork, artist, setVideo}) => {
                 setHover(true);
             }}
             onMouseLeave={() => {
-                setHover(false);
+                if (!artwork.forceHover) {
+                    setHover(false);
+                }
             }}
             onTouchStart={(evt) => {
                 const control = evt.target.closest('a, button');
                 if (!control) {
                     evt.preventDefault();
-                    setHover(!isHover);
+                    if (!artwork.forceHover) {
+                        setHover(!isHover);
+                    }
                 }
             }}
         >
-            <div className="artwork">
+            <div className={`artwork ${artwork.forceHover ? "artwork-stuck" : ""}`}>
                 {
                     artDisplay
                 }
