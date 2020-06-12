@@ -4,19 +4,19 @@
         {
             "title": "Andrew Bowen",
             "by": 1,
-            "vimeo": "12520819",
+            "vimeo": "426941362",
             "image": "andrew.jpg"
         },
         {
             "title": "Hannah Thomas",
             "by": 2,
-            "vimeo": "12520819",
+            "vimeo": "426946501",
             "image": "hannah.jpg"
         },
         {
             "title": "Pixie Fear",
             "by": 3,
-            "vimeo": "12520819",
+            "vimeo": "426953841",
             "image": "Pixie.jpg"
         },
         {
@@ -28,37 +28,37 @@
         {
             "title": "Connor Tudor",
             "by": 5,
-            "vimeo": "12520819",
+            "vimeo": "428171830",
             "image": "connor.jpg"
         },
         {
             "title": "Kate Evans",
             "by": 6,
-            "vimeo": "12520819",
+            "vimeo": "427713818",
             "image": "kate.jpg"
         },
         {
             "title": "Bethryn Cooper",
             "by": 7,
-            "vimeo": "12520819",
+            "vimeo": "427001474",
             "image": "bethryn.png"
         },
         {
             "title": "Lois Samuel",
             "by": 8,
-            "vimeo": "12520819",
+            "vimeo": "427403575",
             "image": "lois.jpg"
         },
      
         {
             "title": "Alana Jones",
             "by": 10,
-            "vimeo": "12520819",
+            "vimeo": "426961185",
             "image": "alana.jpg"
         },
         { "title": "Laura Dunlop",
             "by": 11,
-            "vimeo": "12520819",
+            "vimeo": "426953528",
             "image": "laurad.jpg"
 
 
@@ -66,28 +66,28 @@
         { 
             "title": "Jess Parry",
             "by": 12,
-            "vimeo": "12520819",
+            "vimeo": "428075284",
             "image": "jess.jpg"
         },
         { "title": "Christina Logan",
             "by": 13,
-            "vimeo": "12520819",
+            "vimeo": "426942145",
             "image": "christina.jpg"
         },
         {
             "title": "Laura Cashin",
             "by": 14,
-            "vimeo": "12520819",
+            "vimeo": "426952868",
             "image": "Cashin.jpg"
         },
         {
             "title": "Abigail Fraser",
             "by": 15,
-            "vimeo": "12520819",
+            "vimeo": "426940792",
             "image": "abi.jpg"
         },   
         {
-            "title": "With thanks to",
+            
             "by": 9,
             "image": "thanks.jpg",
             "forceHover": true
